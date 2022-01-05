@@ -20,3 +20,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('api.urls')),
 ]
+
+# Changes label admin site
+admin.site.site_header = "Ado Labs"
+admin.site.site_title = "Ado Labs Portal"
+admin.site.index_title = "Welcome to Ado Labs Researcher Portal"
